@@ -35,7 +35,7 @@ export const REACT_DOWNLOAD_CV_URL = "https://drive.google.com/uc?export=downloa
 
 
 // ── Site ───────────────────────────────────────────────────
-export const SITE_URL     = "https://towfiq-mern-stack-developer.vercel.app";
+export const SITE_URL     = "https://frontends-eta.vercel.app";
 
 // Single source of truth for stats that can't be derived from local data
 // (project count and tech-stack count are already derived automatically
