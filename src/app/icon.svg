@@ -1,0 +1,32 @@
+<svg width="100%" viewBox="70 15 260 260" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>towfiq-dev shield logo</title>
+  <desc>Professional shield badge logo for towfiq-dev — square crop for favicon/app icon use</desc>
+
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E293B"/>
+      <stop offset="100%" style="stop-color:#0F172A"/>
+    </linearGradient>
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#38BDF8"/>
+      <stop offset="100%" style="stop-color:#6366F1"/>
+    </linearGradient>
+    <linearGradient id="tGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38BDF8"/>
+      <stop offset="100%" style="stop-color:#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield shape (identical artwork to the full logo, just square-cropped to the icon mark) -->
+  <path d="M200 38 L268 62 L268 160 Q268 220 200 252 Q132 220 132 160 L132 62 Z" fill="url(#shieldGrad)" stroke="url(#strokeGrad)" stroke-width="2.5"/>
+
+  <!-- Inner shield border -->
+  <path d="M200 52 L256 72 L256 158 Q256 208 200 236 Q144 208 144 158 L144 72 Z" fill="none" stroke="#38BDF8" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- T letter inside shield -->
+  <rect x="178" y="110" width="44" height="9" rx="4" fill="url(#tGrad)"/>
+  <rect x="196" y="110" width="9" height="52" rx="4" fill="url(#tGrad)"/>
+
+  <!-- Small dot accent -->
+  <circle cx="252" cy="68" r="4" fill="#38BDF8" opacity="0.9"/>
+</svg>

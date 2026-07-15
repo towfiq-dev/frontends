@@ -1,0 +1,15 @@
+export { default as skillSwapImg } from "@/assets/project-images/skillSwapImg.png";
+export { default as keenKeeperImg } from "@/assets/project-images/keenkeeper.png";
+export { default as tilesProImg } from "@/assets/project-images/TilesPro.png";
+export { default as dgToolsImg } from "@/assets/project-images/DGTools.png";
+export { default as githubIssueTrackerImg } from "@/assets/project-images/github.png";
+export { default as bookVibeImg } from "@/assets/project-images/bookvibe.png";
+export { default as dragonNewsImg } from "@/assets/project-images/dragon.png";
+export { default as englishIsEasyImg } from "@/assets/project-images/english.png";
+export { default as payooImg } from "@/assets/project-images/payoo.png";
+export { default as appstore } from "@/assets/project-images/app.png";
+export { default as g3ArchitectsImg } from "@/assets/project-images/architechts.png";
+export { default as greenEarthImg } from "@/assets/project-images/green.png";
+export { default as jobTrackerImg } from "@/assets/project-images/jobTracker.png";
+export { default as wanderlustImg} from "@/assets/project-images/wanderlustImg.png";
+export { default as carePulseImg} from "@/assets/project-images/carePulseImg.png";

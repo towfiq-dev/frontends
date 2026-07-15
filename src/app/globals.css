@@ -1,0 +1,106 @@
+@import "tailwindcss";
+/* @plugin "daisyui"; */
+
+/* ===========================
+   SCROLL SMOOTH
+   Disabled — Lenis (see SmoothScrollProvider) handles smooth scrolling
+   instead; enabling both would cause conflicts.
+   =========================== */
+/* html {
+  scroll-behavior: smooth;
+} */
+
+/* ===========================
+   CUSTOM SCROLLBAR
+   =========================== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ===========================
+  FLOAT ANIMATION
+   =========================== */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* ===========================
+   TYPEWRITER
+   =========================== */
+.typewriter-container {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.3em;
+}
+
+/* ===========================
+   RESPONSIVE OVERFLOW FIX
+   Prevents horizontal scroll on mobile desktop-mode
+   =========================== */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* ===========================
+   HERO SECTION — no extra top gap
+   =========================== */
+@media (max-width: 1024px) {
+  section[class*="min-h-screen"] {
+    min-height: auto;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}
+
+
+/* ===========================
+   THEME VARIABLES
+   =========================== */
+:root {
+  /* Light theme */
+  --bg:          #f8fafc;
+  --bg-card:     #ffffff;
+  --bg-nav:      rgba(248, 250, 252, 0.85);
+  --fg:          #0f172a;
+  --fg-muted:    #64748b;
+  --border:      #e2e8f0;
+  --accent:      #06b6d4;
+}
+
+.dark {
+  /* Dark theme (default) */
+  --bg:          #000000;
+  --bg-card:     #0d0d0d;
+  --bg-nav:      rgba(0, 0, 0, 0.9);
+  --fg:          #ffffff;
+  --fg-muted:    #a3a3a3;
+  --border:      #262626;
+  --accent:      #22d3ee;
+}
+
+/* ===========================
+   RECAPTCHA v3 BADGE
+   Hidden per user preference. Google's Terms of Service require visible
+   attribution text somewhere on the page when the badge is hidden — that
+   text lives in the Footer component (bottom bar) and inside the gate's
+   loading screen.
+   =========================== */
+.grecaptcha-badge {
+  visibility: hidden !important;
+}
