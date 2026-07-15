@@ -129,31 +129,6 @@ const Footer = () => {
             <span className="sr-only"> তৌফিকুল ইসলাম</span>
           </p>
 
-          {/* Required attribution since the reCAPTCHA v3 badge is hidden via CSS
-            (see globals.css). Google's Terms of Service require this text to
-            be visible somewhere on the page when the badge is not shown. */}
-          <p className="text-center text-[1px] text-[#020617]">
-            This site is protected by reCAPTCHA and the Google{" "}
-            <a
-              href="https://policies.google.com/privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-sky-400"
-            >
-              Privacy Policy
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://policies.google.com/terms"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-sky-400"
-            >
-              Terms of Service
-            </a>{" "}
-            apply.
-          </p>
-
           <p>
             Designed & Built by{" "}
             <span className="text-sky-500">Towfiqul Islam</span>
